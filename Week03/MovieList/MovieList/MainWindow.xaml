@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MovieList"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="525">
-    <StackPanel Margin="10,10,10,10">
+        Title="MainWindow" Height="381.065" Width="534.467">
+    <StackPanel Margin="10,10,58,121" RenderTransformOrigin="0.52,0.534">
+        <TextBlock x:Name="textBlockTitle" TextWrapping="Wrap" Text="Title:" Height="78"/>
+        <TextBlock x:Name="textBoxboxTitle" TextWrapping="Wrap" Text="TextBlock"/>
+        <TextBlock x:Name="textBlockRealeseYear" TextWrapping="Wrap" Text="Release Year:" Height="78"/>
+        <TextBlock x:Name="textBoxboxReleaseYear" TextWrapping="Wrap" Text="TextBlock"/>
+        <Button x:Name="buttonAddMovie" Content="Add Movie" Click="buttonAddMovie_Click" />
+        <Button x:Name="buttonShowAll" Content="Show All Movies" Height="18" Click="buttonShowAll_Click" RenderTransformOrigin="0.509,2.562" Margin="10,0,0,0"/>
 
     </StackPanel>
 </Window>
