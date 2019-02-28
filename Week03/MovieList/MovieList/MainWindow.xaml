@@ -5,14 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MovieList"
         mc:Ignorable="d"
-        Title="MainWindow" Height="381.065" Width="534.467">
-    <StackPanel Margin="10,10,58,121" RenderTransformOrigin="0.52,0.534">
-        <TextBlock x:Name="textBlockTitle" TextWrapping="Wrap" Text="Title:" Height="78"/>
-        <TextBlock x:Name="textBoxboxTitle" TextWrapping="Wrap" Text="TextBlock"/>
-        <TextBlock x:Name="textBlockRealeseYear" TextWrapping="Wrap" Text="Release Year:" Height="78"/>
-        <TextBlock x:Name="textBoxboxReleaseYear" TextWrapping="Wrap" Text="TextBlock"/>
+        Title="MainWindow" Height="400" Width="600">
+    <StackPanel >
+        <TextBlock x:Name="textBlockTitle" TextWrapping="Wrap" Text="Title:" />
+        <TextBox x:Name="textBoxTitle" />
+        <TextBlock x:Name="textBlockRealeseYear" TextWrapping="Wrap" Text="Release Year:" />
+        <TextBox x:Name="textBoxReleaseYear" />
+        <TextBlock x:Name="TextBlockDirector" TextWrapping="Wrap" Text="Who's the director?" />
+        <TextBox x:Name="TextBoxDirector" />
+        <TextBlock x:Name="TextBlockLength" TextWrapping="Wrap" Text="Waat's the length of the movie?" />
+        <TextBox x:Name="TextBoxLength" />
+        <TextBlock x:Name="TextBlockGenre" TextWrapping="Wrap" Text="What's the genre?" />
+        <TextBox x:Name="TextBoxGenre" />
         <Button x:Name="buttonAddMovie" Content="Add Movie" Click="buttonAddMovie_Click" />
-        <Button x:Name="buttonShowAll" Content="Show All Movies" Height="18" Click="buttonShowAll_Click" RenderTransformOrigin="0.509,2.562" Margin="10,0,0,0"/>
+        <Button x:Name="buttonShowAll" Content="Show All Movies" Click="buttonShowAll_Click" />
 
     </StackPanel>
 </Window>
