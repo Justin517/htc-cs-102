@@ -49,6 +49,38 @@ namespace InheritanceIntro
             {
                 d.SayName();
             }
+
+            Duck duck1 = new Duck(25, "Harry");
+            Duck duck2 = new Duck(45, "Henrietta");
+
+            List<Duck> ducks = new List<Duck>();
+            ducks.Add(duck1);
+            ducks.Add(duck2);
+
+            Kangaroo kangaroo1 = new Kangaroo(45000, "Perry", 300000000);
+            Kangaroo kangaroo2 = new (350000, "Terry", 4000026);
+
+            List<Kangaroo> kangaroo = new List<Kangaroo>();
+            kangaroo.Add(kangaroo1);
+            Kangaroo.Add(kangaroo2);
+        }
+
+        private void Quack_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Duck duck = new Duck();
+            duck.Quack();
+        }
+
+        private void Ribbet_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Frob frob = new Frob();
+            frob.Ribbit();
+        }
+
+        private void Meow_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Kangaroo kangaroo = new InheritanceIntro.Kangaroo();
+            kangaroo.Meow();
         }
     }
 }

@@ -9,6 +9,10 @@
     <StackPanel>
         <Image Source="dog.jpg" Width="700"/>
         <Button Click="Bark_Button_Click">Bark</Button>
+        <Button Click="Quack_Button_Click">Quack</Button>
+        <Button Click="Ribbet_Button_Click">Ribbet</Button>
+        <Button Click="Meow_Button_Click">Meow?</Button>
         <Button Click="SayName_Button_Click">Say Name</Button>
+        
     </StackPanel>
 </Window>
