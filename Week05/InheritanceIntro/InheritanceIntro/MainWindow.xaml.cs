@@ -58,11 +58,11 @@ namespace InheritanceIntro
             ducks.Add(duck2);
 
             Kangaroo kangaroo1 = new Kangaroo(45000, "Perry", 300000000);
-            Kangaroo kangaroo2 = new (350000, "Terry", 4000026);
+            Kangaroo kangaroo2 = new Kangaroo  (3500, "Terry", 4000026);
 
             List<Kangaroo> kangaroo = new List<Kangaroo>();
             kangaroo.Add(kangaroo1);
-            Kangaroo.Add(kangaroo2);
+            kangaroo.Add(kangaroo2);
         }
 
         private void Quack_Button_Click(object sender, RoutedEventArgs e)

@@ -99,7 +99,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="dog.jpg" />
+    <Resource Include="..\..\..\..\..\..\Pictures\Saved Pictures\dockog.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
