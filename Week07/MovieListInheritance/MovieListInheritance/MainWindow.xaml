@@ -22,11 +22,10 @@
         <Button Click="AddButton_Click" HorizontalAlignment="Center" Margin="0,0,0,10">Add</Button>
         
         <!-- Border surrounding Animated Movie options -->
-        <Border BorderThickness="1" BorderBrush="Gray" Padding="8">
-            <StackPanel>
-                <!-- Put Animated Movie options in here -->
-                
-            </StackPanel>
-        </Border>
+        <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Animation Studio"/>
+        <TextBox x:Name="textBox" Height="23" TextWrapping="Wrap" Text=""/>
+        <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="Animation Type"/>
+        <TextBox x:Name="textBox1" Height="23" TextWrapping="Wrap" Text=""/>
+        <Button x:Name="button" Content="Add Animated Movie" Margin="125,0" Click="button_Click"/>
     </StackPanel>
 </Window>

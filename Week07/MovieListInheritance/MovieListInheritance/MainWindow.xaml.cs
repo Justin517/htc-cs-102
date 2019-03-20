@@ -57,5 +57,25 @@ namespace MovieList
                 selectedMovie.ShowDetails();
             }
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Movie movieToAdd = new AnimatedMovie(titleInput.Text, int.Parse(releaseYearInput.Text), textBox.Text, textBox1.Text);
+
+                MovieList.Add(movieToAdd);
+
+                titleInput.Clear();
+                releaseYearInput.Clear();
+                textBox.Clear();
+                textBox1.Clear();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Put valid input");
+            }
+           
+        }
     }
 }
