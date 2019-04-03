@@ -14,7 +14,9 @@
                     <GridViewColumn Width="100" Header="Height" DisplayMemberBinding="{Binding Height}"></GridViewColumn>
                 </GridView>
             </ListView.View>
+            <Canvas Name="Animals" Height="100" Width="100"/>
         </ListView>
         <Button Click="SayName_Button_Click">Say Name</Button>
+        <Canvas HorizontalAlignment="Left" Height="119" Margin="69,0,0,0" Width="40"/>
     </StackPanel>
 </Window>
